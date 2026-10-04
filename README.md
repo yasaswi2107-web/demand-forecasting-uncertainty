@@ -134,6 +134,7 @@ Install the required Python packages:
 
 ```bash
 pip install -r requirements.txt
+```
 
 ### 2. Download the dataset
 
@@ -144,12 +145,15 @@ https://www.kaggle.com/competitions/demand-forecasting-kernels-only/data
 For Google Colab, upload `train.csv` so that it is available at:
 
 ```text
-/content/train.csv ```
+/content/train.csv
+```
+
 ### 3. Run the notebook
 
 Open `Demand_Forecasting_Uncertainty.ipynb` in Google Colab or Jupyter Notebook.
 
 Run the cells from top to bottom.
+
 ### 4. Re-run evaluation
 
 The evaluation period is the year 2017, while 2013–2016 is used for training.
