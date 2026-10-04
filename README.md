@@ -144,7 +144,7 @@ https://www.kaggle.com/competitions/demand-forecasting-kernels-only/data
 For Google Colab, upload `train.csv` so that it is available at:
 
 ```text
-/content/train.csv
+/content/train.csv ```
 ### 3. Run the notebook
 
 Open `Demand_Forecasting_Uncertainty.ipynb` in Google Colab or Jupyter Notebook.
