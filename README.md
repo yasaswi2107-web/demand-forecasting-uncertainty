@@ -128,7 +128,30 @@ High-demand observations are used as a proxy for demand spikes when analyzing un
 
 ## Reproducibility
 
+### 1. Install dependencies
+
 Install the required Python packages:
 
 ```bash
-pip install pandas numpy matplotlib scikit-learn lightgbm
+pip install -r requirements.txt
+
+### 2. Download the dataset
+
+Download `train.csv` from the Store Item Demand Forecasting Challenge:
+
+https://www.kaggle.com/competitions/demand-forecasting-kernels-only/data
+
+For Google Colab, upload `train.csv` so that it is available at:
+
+```text
+/content/train.csv
+### 3. Run the notebook
+
+Open `Demand_Forecasting_Uncertainty.ipynb` in Google Colab or Jupyter Notebook.
+
+Run the cells from top to bottom.
+### 4. Re-run evaluation
+
+The evaluation period is the year 2017, while 2013–2016 is used for training.
+
+Running the notebook from top to bottom reproduces the reported evaluation metrics and plots.
